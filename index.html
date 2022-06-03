@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><a href="#">ADVENTURE BOYES</a></div>
+      <ul class="nav-link">
+        <li><a href="#">home</a></li>
+        <li><a href="#">tours</a></li>
+        <li><a href="#">hotel</a></li>
+        <li><a href="#">facilities</a></li>
+        <li><a href="#" class="click">contact</a></li>
+      </ul>
+      <img class="menu-btn" src="./images/menu.png" alt="menu btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore the beutifull word</h2>
+        <div class="line"></div>
+        <h1>a wonderfull gift</h1>
+        <a href="#" class="click">Learn More</a>
+      </div>
+    </header>
+
+    <script>
+      var menuBtn = document.querySelector(".menu-btn");
+      var navLink = document.querySelector(".nav-link");
+
+      menuBtn.addEventListener("click", () => {
+        navLink.classList.toggle(".mobile-menu");
+      });
+    </script>
+  </body>
+</html>

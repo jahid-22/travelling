@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/* start */
+/* navbar */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 1rem;
+}
+.navbar .logo a {
+  color: aliceblue;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.navbar ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  color: whitesmoke;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in;
+}
+.navbar ul li a:hover {
+  color: rgb(235, 16, 70);
+}
+.navbar ul .click {
+  margin: 0;
+  text-align: center;
+}
+.navbar ul .click:hover {
+  background-color: sandybrown;
+}
+.menu-btn {
+  width: 2.5rem;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  cursor: pointer;
+  display: none;
+}
+/* hero */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header-content {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.header-content h2 {
+  color: whitesmoke;
+  font-size: 4vmin;
+}
+.header-content .line {
+  width: 7rem;
+  height: 0.3rem;
+  background: rgb(235, 16, 70);
+  border-radius: 5px;
+  margin: 1rem auto;
+}
+.header-content h1 {
+  color: whitesmoke;
+  font-size: 6vmin;
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+.click {
+  color: whitesmoke;
+  background: rgb(235, 16, 70);
+  padding: 0.5rem 0 0.5rem 0;
+  width: 8rem;
+  display: inline-block;
+  border-radius: 5px;
+  transition: width 0.4s ease-in-out;
+  margin-top: 3rem;
+}
+.header-content .click:hover {
+  background: sandybrown;
+  color: rgb(235, 16, 70);
+  width: 10rem;
+}

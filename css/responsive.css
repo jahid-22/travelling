@@ -1,0 +1,34 @@
+@media only screen and (max-width: 850px) {
+  .navbar {
+    padding: 0;
+  }
+  .logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .navbar .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(59, 48, 87);
+    border-bottom-left-radius: 40%;
+    margin-top: -2000px;
+  }
+
+  .mobile-menu {
+    margin-top: 0px;
+  }
+
+  .nav-link li {
+    margin-top: 3rem;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}
+
