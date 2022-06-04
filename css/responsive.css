@@ -34,7 +34,7 @@
 }
 
 /* == event page == */
-@media screen and (max-width:880px){
+@media screen and (max-width:890px){
  .event-content{
    display: flex;
    justify-content: center;
@@ -63,5 +63,29 @@
   }
   .explore .explore-disc .click{
     margin-top: 1rem;
+  }
+}
+/* == tour srction == */
+@media screen and (max-width:950px){
+  .upcoming .row{
+    display: grid;
+    grid-template-columns: 2.5fr 2.5fr ;
+  }
+  .upcoming .row .tour{
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width:500px){
+  .upcoming .row{
+    display: grid;
+    grid-template-columns: 3fr 3fr ;
+  }
+  .upcoming .row .tour{
+    margin-top: 1rem;
+  }
+  .upcoming .row .click{
+    font-size: 10px;
+    padding: .3rem;
+    width: 5rem;
   }
 }
