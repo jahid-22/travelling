@@ -35,12 +35,23 @@
 
 /* == event page == */
 @media screen and (max-width:880px){
- .event-content .col-2 , .col-1{
-   flex-grow: 8;
+ .event-content{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 100px;
+
  }
- .event-content .col-3{
-   width: 100%;
+ .event-content .content{
+   max-width: 430px;
+  flex-grow: 3;
  }
+}
+@media screen and (max-width:600px){
+  .event-content .content img{
+    width: 13rem;
+    height: 10rem;
+  }
 }
 /* == explore page == */
 @media screen and (max-width:880px){
