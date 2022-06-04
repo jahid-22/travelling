@@ -1,3 +1,4 @@
+/* ==  nav bar and home page == */
 @media only screen and (max-width: 850px) {
   .navbar {
     padding: 0;
@@ -32,3 +33,24 @@
   }
 }
 
+/* == event page == */
+@media screen and (max-width:880px){
+ .event-content .col-2 , .col-1{
+   flex-grow: 8;
+ }
+ .event-content .col-3{
+   width: 100%;
+ }
+}
+/* == explore page == */
+@media screen and (max-width:880px){
+  .explore .explore-disc{
+    width: 85%;
+  }
+  .explore .explore-disc h1{
+    font-size: 5vmin;
+  }
+  .explore .explore-disc .click{
+    margin-top: 1rem;
+  }
+}
